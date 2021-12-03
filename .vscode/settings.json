@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.sql": "sql",
+        "iostream": "cpp",
+        "array": "cpp",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "ciso646": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "sstream": "cpp",
+        "functional": "cpp",
+        "regex": "cpp",
+        "type_traits": "cpp",
+        "tuple": "cpp",
+        "valarray": "cpp",
+        "cctype": "cpp",
+        "charconv": "cpp"
+    }
+}
