@@ -19,9 +19,9 @@ int Max(int h1, int h2)
 
 int Height(node* tempNode)
 {
-    if(tempNode)
+    if(!tempNode)
         return -1;
-    else
+    else 
         return tempNode->height;
 }
 
@@ -70,6 +70,7 @@ node* insert(node* root, node* parent, int val)
 {
     if(root == NULL)
     {
+        root = new node;
         root->data = val;
         root->height = 0;
         root->left = NULL;
@@ -113,14 +114,13 @@ void printInOrder(node* temp)
 }
 int main()
 {  
-    node* start = new node;
-    start = NULL;
-    insert(start, NULL, 10);
-    insert(start, NULL, 20);
-    insert(start, NULL, 30);
-    insert(start, NULL, 40);
-    insert(start, NULL, 55);
-    insert(start, NULL, 25);
+    node* start;
+    start = insert(start, NULL, 10);
+    start = insert(start, NULL, 20);
+    start = insert(start, NULL, 30);
+    start = insert(start, NULL, 40);
+    start = insert(start, NULL, 55);
+    start = insert(start, NULL, 25);
 
     printInOrder(start);
 
