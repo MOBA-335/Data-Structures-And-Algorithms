@@ -21,6 +21,7 @@
         "tuple": "cpp",
         "valarray": "cpp",
         "cctype": "cpp",
-        "charconv": "cpp"
+        "charconv": "cpp",
+        "new": "cpp"
     }
 }
