@@ -107,14 +107,15 @@ void printInOrder(node* temp)
 {
     if(temp)
     {
+        
         printInOrder(temp->left);
-        cout << temp->data << endl;
         printInOrder(temp->right);
+        cout << temp->data << endl;
     }
 }
 int main()
 {  
-    node* start;
+    node* start = NULL;
     start = insert(start, NULL, 10);
     start = insert(start, NULL, 20);
     start = insert(start, NULL, 30);
